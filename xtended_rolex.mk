@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
-#               2017-2019 The LineageOS Project
+#               2017-2019 The xtendedOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common xtended stuff
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -30,7 +30,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
-PRODUCT_NAME := lineage_rolex
+PRODUCT_NAME := xtended_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
